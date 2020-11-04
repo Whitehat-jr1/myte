@@ -10,6 +10,7 @@ var world;
 
 function setup() {
 	createCanvas(1600, 700);
+
 	rectMode(CENTER);
 
 
@@ -39,7 +40,7 @@ function setup() {
 
 function draw() {
   rectMode(CENTER);
-  background(0);
+  background("brown");
  
   dustbinObj.display();
   paperObject.display();
